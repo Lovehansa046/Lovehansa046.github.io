@@ -1,0 +1,46 @@
+.logo_text{
+    color: lightgreen;
+    text-align: center;
+}
+
+.first{
+    color: lightgreen;
+    text-align: center;
+    margin-top: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first a{
+    display: inline-block;
+	margin-left: 1px;
+	padding: 28px 1.5em 0em 1.5em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	outline: 0;
+	color: lightgreen;
+    text-decoration: underline;
+}
+
+.background {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+p{
+    display: inline-block;
+	margin-left: 1px;
+	padding: 28px 1.5em 0em 1.5em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	outline: 0;
+	color: lightgreen;
+    
+}
+
