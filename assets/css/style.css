@@ -1,5 +1,5 @@
 .logo_text{
-    color: lightgreen;
+    color: darkgreen;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@
 	font-size: 1em;
 	text-transform: uppercase;
 	outline: 0;
-	color: lightgreen;
+	color: darkgreen;
     text-decoration: underline;
 }
 
@@ -40,7 +40,7 @@ p{
 	font-size: 1em;
 	text-transform: uppercase;
 	outline: 0;
-	color: lightgreen;
+	color: darkgreen;
     
 }
 
