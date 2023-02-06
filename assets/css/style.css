@@ -67,4 +67,35 @@ p{
     
 }
 
+.card {
+	/* float:inline-start; */
+	float:left;
+	/* background: rgb(97, 135, 31); */
+	box-shadow: 5px 8px 5px 8px  rgb(0, 0, 0);
+	width: 250px;
+	height: 200px;
+	margin: 15px;
+	text-align: center;
+	font-family: arial;
+	padding: 50px;
+  }
+  
+  .card button {
+	border: 12px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.476);
+	outline: 0;
+	padding: 12px;
+	color: rgb(180, 225, 108);
+	background-color: #00000087;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+  }
+  
+  .card button:hover {
+	opacity: 0.7;
+  }
+  
+ 
 
