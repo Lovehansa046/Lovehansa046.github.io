@@ -78,7 +78,7 @@ p{
 	text-align: center;
 	font-family: arial;
 	padding: 50px;
-}
+  }
   
   .card button {
 	border: 12px;
@@ -96,6 +96,21 @@ p{
   .card button:hover {
 	opacity: 0.7;
   }
-  
+
+
+
+.card {
+    display: inline-block; 
+    overflow: hidden; /* Скрываем всё за контуром */
+}
+.card  button {
+    transition: 1s; /* Время эффекта */
+    display: block; 
+
+}
+.card  button:hover {
+
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
  
 
