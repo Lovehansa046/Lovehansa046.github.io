@@ -16,6 +16,14 @@
     font-size: 300%;
 }
 
+.logo .logo_img {
+    color: white;
+    display: block;
+    margin:  auto;
+}
+
+
+
 .header p {
     color: white !important;
     font-size: 90%;
