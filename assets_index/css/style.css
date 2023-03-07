@@ -3,6 +3,14 @@
     text-align: center;
 }
 
+.logo .logo_img {
+    color: white;
+    display: block;
+    margin:  auto;
+}
+
+
+
 .first{
     color: lightgreen;
     text-align: center;
