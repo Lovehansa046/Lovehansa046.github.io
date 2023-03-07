@@ -13,6 +13,22 @@ p {
     padding: 0 0 20px 0;
     line-height: 1.7em;
 }
+.logo .logo_img {
+    color: white;
+    display: block;
+    margin:  auto;
+}
+
+.logo .logo_text {
+    color: #ffffff;
+    font-style: Arial;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: auto;
+    text-align: center;
+    margin-top: 14px;
+}
 
 input[type="text"], input[type="password"], input[type="search"] {
     color: #5d5d5d;
@@ -62,7 +78,7 @@ ul li {
 
 .header {
     background-color: #236dc7;
-    height: 280px;
+    height: auto;
     font-size: 0.8em;
     margin-left: 0px;
     min-width: 900px;
@@ -376,7 +392,7 @@ td img {
 
 .footer {
     width: 100%;
-    height: 100px;
+    height: auto;
     padding: 28px 0 5px 0;
     text-align: center;
     background-color: #236dc7;
