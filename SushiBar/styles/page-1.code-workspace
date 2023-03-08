@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "page-1",
+			"path": ".."
+		},
+		{
+			"name": "lovehansa046.github.io",
+			"path": "../../../Desktop/HTML:CSS/lovehansa046.github.io"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lovehansa046.github.io"
+	}
+}
