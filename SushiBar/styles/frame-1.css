@@ -31,7 +31,7 @@ body {
   background-color: #ffffff;
 }
 
-.frame-1-pSL .taskbar-FGk {
+.frame-1-pSL .taskbar {
   box-sizing: border-box;
   padding: auto;
   width: auto;
@@ -42,7 +42,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .buttonest-Gr4 {
+.frame-1-pSL .taskbar .button_est {
   margin: 0rem 14px 0.6rem 0rem;
   box-sizing: border-box;
   padding: 0.2rem;
@@ -52,7 +52,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .buttonest-Gr4 .ellipse-1-ykU {
+.frame-1-pSL .taskbar .button_est .ellipse-1 {
   width: auto;
   height: 2.9rem;
   background-size: 100% 100%;
@@ -62,7 +62,7 @@ body {
   border-radius: 1.45rem;
 }
 
-.frame-1-pSL .taskbar-FGk .buttonrus-Tfe {
+.frame-1-pSL .taskbar .button_rus {
   margin: 0rem 1.2rem 0.6rem 0rem;
   box-sizing: border-box;
   padding: 0.2rem;
@@ -72,7 +72,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .buttonrus-Tfe .ellipse-4-PJQ {
+.frame-1-pSL .taskbar .button_rus .ellipse-4 {
   width: 100%;
   height: 2.9rem;
   background-size: 100% 100%;
@@ -82,7 +82,7 @@ body {
   border-radius: 1.45rem;
 }
 
-.frame-1-pSL .taskbar-FGk .buttoneng-JgG {
+.frame-1-pSL .taskbar .button_eng {
   margin: 0rem 9rem 0.6rem 0rem;
   box-sizing: border-box;
   padding: 0.2rem;
@@ -92,7 +92,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .buttoneng-JgG .ellipse-6-F5i {
+.frame-1-pSL .taskbar .button_eng .ellipse-6 {
   width: 100%;
   height: 2.9rem;
   background-size: 100% 100%;
@@ -102,7 +102,7 @@ body {
   border-radius: 1.45rem;
 }
 
-.frame-1-pSL .taskbar-FGk .hoursworktextimg-Lcx {
+.frame-1-pSL .taskbar .hoursworktextimg {
   margin: 0.9rem 6.5rem 1.2rem 0rem;
   height: calc(100% - 2.1rem);
   display: flex;
@@ -110,7 +110,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .hoursworktextimg-Lcx .iconclock-1-rLQ {
+.frame-1-pSL .taskbar .hoursworktextimg .iconclock-1 {
   margin-right: 0.7rem;
   width: 1.6rem;
   height: 1.6rem;
@@ -119,7 +119,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .hoursworktextimg-Lcx .item-11-00-22-00-11-00-23-00-11-00-22-00-BNg {
+.frame-1-pSL .taskbar .hoursworktextimg .item-11-00-22-00-11-00-23-00-11-00-22-00 {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -129,7 +129,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .emailtextimg-nNU {
+.frame-1-pSL .taskbar .emailtextimg {
   margin: 0.9rem 8.7rem 1.1rem 0rem;
   height: calc(100% - 2rem);
   display: flex;
@@ -137,7 +137,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .emailtextimg-nNU .image-1-iX2 {
+.frame-1-pSL .taskbar .emailtextimg .image-1 {
   margin: 0rem 0.9rem 0.1rem 0rem;
   width: 2.2rem;
   height: 2.2rem;
@@ -146,7 +146,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .emailtextimg-nNU .exampleexamplecom-Dya {
+.frame-1-pSL .taskbar .emailtextimg .exampleexamplecom {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -156,7 +156,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .phonetextimg-MZz {
+.frame-1-pSL .taskbar .phonetextimg {
   margin: 0.9rem 8.4rem 1.2rem 0rem;
   height: calc(100% - 2.1rem);
   display: flex;
@@ -164,7 +164,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .phonetextimg-MZz .image-2-HyS {
+.frame-1-pSL .taskbar .phonetextimg .image-2 {
   margin: 0rem 0.4rem 0.1rem 0rem;
   width: 1.9rem;
   height: 1.9rem;
@@ -173,7 +173,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .phonetextimg-MZz .item-372-12-345-678-d1i {
+.frame-1-pSL .taskbar .phonetextimg .item-372-12-345-678 {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -183,7 +183,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .imgcitytext-jaY {
+.frame-1-pSL .taskbar .imgcitytext {
   margin: 0.9rem 1rem 1.2rem 0rem;
   height: calc(100% - 2.1rem);
   display: flex;
@@ -191,7 +191,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .imgcitytext-jaY .image-3-eSc {
+.frame-1-pSL .taskbar .imgcitytext .image-3 {
   margin: 0rem 0.6rem 0.1rem 0rem;
   width: 1.9rem;
   height: 1.9rem;
@@ -200,7 +200,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .imgcitytext-jaY .item--Avk {
+.frame-1-pSL .taskbar .imgcitytext .item--Avk {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -210,7 +210,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .dropdown-h9z {
+.frame-1-pSL .taskbar .dropdown {
   width: 17.2rem;
   height: 100%;
   position: relative;
@@ -219,7 +219,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-FGk .dropdown-h9z .rectangle-3-eL8 {
+.frame-1-pSL .taskbar .dropdown .rectangle-3 {
   width: 16.8rem;
   height: 3.9rem;
   position: absolute;
@@ -229,7 +229,7 @@ body {
   border-radius: 0.5rem;
 }
 
-.frame-1-pSL .taskbar-FGk .dropdown-h9z .polygon-1-ApG {
+.frame-1-pSL .taskbar .dropdown .polygon-1 {
   width: 1.3rem;
   height: 1.1rem;
   position: absolute;
@@ -239,7 +239,7 @@ body {
   vertical-align: top;
 }
 
-.frame-1-pSL .taskbar-FGk .dropdown-h9z .item--JQg {
+.frame-1-pSL .taskbar .dropdown .item--JQg {
   width: 6.1rem;
   height: 2.4rem;
   position: absolute;
@@ -253,7 +253,7 @@ body {
   white-space: nowrap;
 }
 
-.frame-1-pSL .taskbar-footer-N9e {
+.frame-1-pSL .taskbar-footer {
   box-sizing: border-box;
   padding: 0.8rem auto 0.9rem 14.2rem;
   width: auto;
@@ -264,7 +264,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .logo-ss6 {
+.frame-1-pSL .taskbar-footer .logo {
   margin-right: 28.5rem;
   height: 100%;
   align-items: center;
@@ -273,7 +273,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .logo-ss6 .image-4-pGY {
+.frame-1-pSL .taskbar-footer .logo .image-4 {
   margin: 0rem 0rem 0.05rem 1.3rem;
   width: 7.7rem;
   height: 8.05rem;
@@ -282,7 +282,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .logo-ss6 .sushi-house-jPW {
+.frame-1-pSL .taskbar-footer .logo .sushi-house {
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -293,7 +293,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .taskbar-menu-G8Y {
+.frame-1-pSL .taskbar-footer .taskbar-menu {
   margin: 4.1rem 2.8rem 3.9rem 0rem;
   height: calc(100% - 8rem);
   display: flex;
@@ -301,7 +301,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .taskbar-menu-G8Y .item--nMn {
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--nMn {
   margin-right: 4.7rem;
   height: 100%;
   display: flex;
@@ -309,7 +309,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .taskbar-menu-G8Y .item--nMn .item--vTz {
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--nMn .item--vTz {
   margin-right: 0.6rem;
   font-size: 2.1rem;
   font-weight: 400;
@@ -322,7 +322,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .taskbar-menu-G8Y .item--nMn .polygon-2-dNQ {
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--nMn .polygon-2 {
   margin-top: 0.1rem;
   width: 0.9rem;
   height: 0.9rem;
@@ -331,7 +331,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .taskbar-menu-G8Y .item--Zmr {
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--Zmr {
   margin-right: 3.2rem;
   font-size: 2.1rem;
   font-weight: 400;
@@ -346,7 +346,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .taskbar-menu-G8Y .item--Zmr .item--Zmr-sub-0 {
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--Zmr .item--Zmr-sub-0 {
   font-size: 2.1rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -356,7 +356,7 @@ body {
   font-family: Inter, 'Source Sans Pro';
 }
 
-.frame-1-pSL .taskbar-footer-N9e .taskbar-menu-G8Y .item--Zmr .item--Zmr-sub-1 {
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--Zmr .item--Zmr-sub-1 {
   font-size: 2.1rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -366,7 +366,7 @@ body {
   font-family: Inter, 'Source Sans Pro';
 }
 
-.frame-1-pSL .taskbar-footer-N9e .taskbar-menu-G8Y .item--Z36 {
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--Z36 {
   margin-right: 4.1rem;
   font-size: 2.1rem;
   font-weight: 400;
@@ -379,7 +379,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .taskbar-menu-G8Y .item--51S {
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--51S {
   font-size: 2.1rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -391,7 +391,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .image-5-PXv {
+.frame-1-pSL .taskbar-footer .image-5 {
   margin: 0.6rem 11.5rem 0rem 0rem;
   width: 3rem;
   height: 3rem;
@@ -400,7 +400,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .item--KRa {
+.frame-1-pSL .taskbar-footer .item--KRa {
   margin: 0.2rem 2rem 0rem 0rem;
   font-size: 1.9rem;
   font-weight: 400;
@@ -413,7 +413,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .sign-in-orY {
+.frame-1-pSL .taskbar-footer .sign-in {
   margin: 2.4rem 1.6rem 1.7rem 0rem;
   width: 13.9rem;
   height: calc(100% - 4.1rem);
@@ -421,7 +421,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .sign-in-orY .item--jEQ {
+.frame-1-pSL .taskbar-footer .sign-in .item--jEQ {
   width: 6.4rem;
   height: 2.4rem;
   position: absolute;
@@ -437,7 +437,7 @@ body {
   white-space: nowrap;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .sign-in-orY .exclude-DfN {
+.frame-1-pSL .taskbar-footer .sign-in .exclude-DfN {
   width: 13.9rem;
   height: 6.5rem;
   position: absolute;
@@ -447,7 +447,7 @@ body {
   vertical-align: top;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .sign-in-orY .exclude-Aac {
+.frame-1-pSL .taskbar-footer .sign-in .exclude-Aac {
   width: 2.2rem;
   height: 2.2rem;
   position: absolute;
@@ -457,7 +457,7 @@ body {
   vertical-align: top;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .item--W8g {
+.frame-1-pSL .taskbar-footer .item--W8g {
   margin: 2.3rem 0rem 1.6rem 0rem;
   box-sizing: border-box;
   padding: 1.7rem 1rem 1.1rem 1.2rem;
@@ -469,7 +469,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .item--W8g .image-6-PCU {
+.frame-1-pSL .taskbar-footer .item--W8g .image-6 {
   margin: 0rem 0.6rem 0.5rem 0rem;
   width: 3.4rem;
   height: 3.4rem;
@@ -478,7 +478,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .item--W8g .item-0-7PN {
+.frame-1-pSL .taskbar-footer .item--W8g .item-0-7PN {
   margin-top: 0.1rem;
   font-size: 2.6rem;
   font-weight: 400;
@@ -493,7 +493,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .taskbar-footer-N9e .item--W8g .item-0-7PN .item-0-7PN-sub-0 {
+.frame-1-pSL .taskbar-footer .item--W8g .item-0-7PN .item-0-7PN-sub-0 {
   font-size: 2.6rem;
   font-weight: 400;
   line-height: 1.44;
@@ -503,7 +503,7 @@ body {
   font-family: Istok Web, 'Source Sans Pro';
 }
 
-.frame-1-pSL .taskbar-footer-N9e .item--W8g .item-0-7PN .item-0-7PN-sub-1 {
+.frame-1-pSL .taskbar-footer .item--W8g .item-0-7PN .item-0-7PN-sub-1 {
   font-size: 2.6rem;
   font-weight: 400;
   line-height: 1.44;
@@ -513,7 +513,7 @@ body {
   font-family: Istok Web, 'Source Sans Pro';
 }
 
-.frame-1-pSL .home-page-7AQ {
+.frame-1-pSL .home-page {
   box-sizing: border-box;
   padding: 10.8rem 17.1rem 5.1rem 17.1rem;
   width: auto;
@@ -529,7 +529,7 @@ body {
 
 
 
-.frame-1-pSL .home-page-7AQ .cashback-ccx {
+.frame-1-pSL .home-page .cashback {
   margin: 9rem  auto 2.3rem 0rem;
   box-sizing: border-box;
   padding: 0.5rem 0.9rem 0rem 0.9rem;
@@ -544,7 +544,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .home-page-7AQ .item-15--GxQ {
+.frame-1-pSL .home-page .item-15--GxQ {
   margin: 0rem 0rem 4.7rem 0.1rem;
   max-width: 100.3rem;
   font-size: 5.8rem;
@@ -555,7 +555,7 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .home-page-7AQ .button-1-rvc {
+.frame-1-pSL .home-page .button-1 {
   margin: 0rem auto 8rem 0.1rem;
   box-sizing: border-box;
   padding: 1.8rem 0.5rem 1.3rem 3.2rem;
@@ -570,14 +570,14 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .home-page-7AQ .auto-group-msny-XG4 {
+.frame-1-pSL .home-page .auto-group {
   margin-left: 0.4rem;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
 
-.frame-1-pSL .home-page-7AQ .auto-group-msny-XG4 .circle-1-rp8 {
+.frame-1-pSL .home-page .auto-group .circle-1 {
   margin-right: 1.1rem;
   width: 1.7rem;
   height: 1.7rem;
@@ -586,16 +586,8 @@ body {
   flex-shrink: 0;
 }
 
-.frame-1-pSL .home-page-7AQ .auto-group-msny-XG4 .circle-2-oUU {
+.frame-1-pSL .home-page .auto-group .circle-2 {
   margin-right: 1.3rem;
-  width: 1.7rem;
-  height: 1.7rem;
-  object-fit: contain;
-  vertical-align: top;
-  flex-shrink: 0;
-}
-
-.frame-1-pSL .home-page-7AQ .auto-group-msny-XG4 .circle-2-Ywr {
   width: 1.7rem;
   height: 1.7rem;
   object-fit: contain;
