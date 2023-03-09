@@ -1,0 +1,596 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+}
+
+
+body {
+  width: auto;
+}
+
+.frame-1-pSL {
+  width: auto;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.frame-1-pSL .taskbar {
+  box-sizing: border-box;
+  padding: auto;
+  width: auto;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .button_est {
+  margin: 0rem 14px 0.6rem 0rem;
+  box-sizing: border-box;
+  padding: 0.2rem;
+  width: 3.3rem;
+  background-color: #d9d9d9;
+  border-radius: 1.65rem;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .button_est .ellipse-1 {
+  width: auto;
+  height: 2.9rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-1-bg.png');
+  border-radius: 1.45rem;
+}
+
+.frame-1-pSL .taskbar .button_rus {
+  margin: 0rem 1.2rem 0.6rem 0rem;
+  box-sizing: border-box;
+  padding: 0.2rem;
+  width: 3.3rem;
+  background-color: #ef8f32;
+  border-radius: 1.65rem;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .button_rus .ellipse-4 {
+  width: 100%;
+  height: 2.9rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-4-bg.png');
+  border-radius: 1.45rem;
+}
+
+.frame-1-pSL .taskbar .button_eng {
+  margin: 0rem 9rem 0.6rem 0rem;
+  box-sizing: border-box;
+  padding: 0.2rem;
+  width: 3.3rem;
+  background-color: #d9d9d9;
+  border-radius: 1.65rem;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .button_eng .ellipse-6 {
+  width: 100%;
+  height: 2.9rem;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/ellipse-6-bg.png');
+  border-radius: 1.45rem;
+}
+
+.frame-1-pSL .taskbar .hoursworktextimg {
+  margin: 0.9rem 6.5rem 1.2rem 0rem;
+  height: calc(100% - 2.1rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .hoursworktextimg .iconclock-1 {
+  margin-right: 0.7rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .hoursworktextimg .item-11-00-22-00-11-00-23-00-11-00-22-00 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .emailtextimg {
+  margin: 0.9rem 8.7rem 1.1rem 0rem;
+  height: calc(100% - 2rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .emailtextimg .image-1 {
+  margin: 0rem 0.9rem 0.1rem 0rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .emailtextimg .exampleexamplecom {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .phonetextimg {
+  margin: 0.9rem 8.4rem 1.2rem 0rem;
+  height: calc(100% - 2.1rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .phonetextimg .image-2 {
+  margin: 0rem 0.4rem 0.1rem 0rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .phonetextimg .item-372-12-345-678 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .imgcitytext {
+  margin: 0.9rem 1rem 1.2rem 0rem;
+  height: calc(100% - 2.1rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .imgcitytext .image-3 {
+  margin: 0rem 0.6rem 0.1rem 0rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .imgcitytext .item--Avk {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .dropdown {
+  width: 17.2rem;
+  height: 100%;
+  position: relative;
+  background-color: #d9d9d9;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar .dropdown .rectangle-3 {
+  width: 16.8rem;
+  height: 3.9rem;
+  position: absolute;
+  left: 0.2rem;
+  top: 0.2rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+}
+
+.frame-1-pSL .taskbar .dropdown .polygon-1 {
+  width: 1.3rem;
+  height: 1.1rem;
+  position: absolute;
+  left: 14.8rem;
+  top: 1.5rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.frame-1-pSL .taskbar .dropdown .item--JQg {
+  width: 6.1rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 2.1rem;
+  top: 1rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.frame-1-pSL .taskbar-footer {
+  box-sizing: border-box;
+  padding: 0.8rem auto 0.9rem 14.2rem;
+  width: auto;
+  height: 12.3rem;
+  display: flex;
+  align-items: center;
+  background-color: #252525;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .logo {
+  margin-right: 28.5rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .logo .image-4 {
+  margin: 0rem 0rem 0.05rem 1.3rem;
+  width: 7.7rem;
+  height: 8.05rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .logo .sushi-house {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .taskbar-menu {
+  margin: 4.1rem 2.8rem 3.9rem 0rem;
+  height: calc(100% - 8rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--nMn {
+  margin-right: 4.7rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--nMn .item--vTz {
+  margin-right: 0.6rem;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.126rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--nMn .polygon-2 {
+  margin-top: 0.1rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--Zmr {
+  margin-right: 3.2rem;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2102272397;
+  letter-spacing: 0.084rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--Zmr .item--Zmr-sub-0 {
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.084rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+}
+
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--Zmr .item--Zmr-sub-1 {
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.084rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+}
+
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--Z36 {
+  margin-right: 4.1rem;
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.084rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .taskbar-menu .item--51S {
+  font-size: 2.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.084rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .image-5 {
+  margin: 0.6rem 11.5rem 0rem 0rem;
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .item--KRa {
+  margin: 0.2rem 2rem 0rem 0rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.057rem;
+  text-transform: capitalize;
+  color: #ef8f32;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .sign-in {
+  margin: 2.4rem 1.6rem 1.7rem 0rem;
+  width: 13.9rem;
+  height: calc(100% - 4.1rem);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .sign-in .item--jEQ {
+  width: 6.4rem;
+  height: 2.4rem;
+  position: absolute;
+  left: 5.9rem;
+  top: 2.1rem;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  letter-spacing: 0.057rem;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+
+.frame-1-pSL .taskbar-footer .sign-in .exclude-DfN {
+  width: 13.9rem;
+  height: 6.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.frame-1-pSL .taskbar-footer .sign-in .exclude-Aac {
+  width: 2.2rem;
+  height: 2.2rem;
+  position: absolute;
+  left: 2.1rem;
+  top: 2.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+
+.frame-1-pSL .taskbar-footer .item--W8g {
+  margin: 2.3rem 0rem 1.6rem 0rem;
+  box-sizing: border-box;
+  padding: 1.7rem 1rem 1.1rem 1.2rem;
+  height: calc(100% - 3.9rem);
+  display: flex;
+  align-items: center;
+  background-color: #ed5436;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .item--W8g .image-6 {
+  margin: 0rem 0.6rem 0.5rem 0rem;
+  width: 3.4rem;
+  height: 3.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .item--W8g .item-0-7PN {
+  margin-top: 0.1rem;
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.2102272327;
+  letter-spacing: 0.156rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .taskbar-footer .item--W8g .item-0-7PN .item-0-7PN-sub-0 {
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.44;
+  letter-spacing: 0.156rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Istok Web, 'Source Sans Pro';
+}
+
+.frame-1-pSL .taskbar-footer .item--W8g .item-0-7PN .item-0-7PN-sub-1 {
+  font-size: 2.6rem;
+  font-weight: 400;
+  line-height: 1.44;
+  letter-spacing: 0.156rem;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Istok Web, 'Source Sans Pro';
+}
+
+.frame-1-pSL .home-page {
+  box-sizing: border-box;
+  padding: 10.8rem 17.1rem 5.1rem 17.1rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: inset 0 0 2.9rem rgba(0, 0, 0, 0.5299999714);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/sushibg-1-bg.png');
+  flex-shrink: 0;
+}
+
+
+
+.frame-1-pSL .home-page .cashback {
+  margin: 9rem  auto 2.3rem 0rem;
+  box-sizing: border-box;
+  padding: 0.5rem 0.9rem 0rem 0.9rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.44;
+  color: #ffffff;
+  font-family: Istok Web, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ef8f32;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .home-page .item-15--GxQ {
+  margin: 0rem 0rem 4.7rem 0.1rem;
+  max-width: 100.3rem;
+  font-size: 5.8rem;
+  font-weight: 700;
+  line-height: 1.44;
+  color: #ffffff;
+  font-family: Istok Web, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .home-page .button-1 {
+  margin: 0rem auto 8rem 0.1rem;
+  box-sizing: border-box;
+  padding: 1.8rem 0.5rem 1.3rem 3.2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.44;
+  color: #ffffff;
+  font-family: Istok Web, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ed5436;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .home-page .auto-group {
+  margin-left: 0.4rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .home-page .auto-group .circle-1 {
+  margin-right: 1.1rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.frame-1-pSL .home-page .auto-group .circle-2 {
+  margin-right: 1.3rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
