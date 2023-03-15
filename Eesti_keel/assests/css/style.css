@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     /* flex-shrink: 0; */
     margin: 0rem 0rem 5.5rem 2.9rem;
+    font-family: Inter, 'Source Sans Pro';
 }
 
 .title H1 {

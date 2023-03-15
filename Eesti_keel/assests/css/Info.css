@@ -38,14 +38,17 @@ body {
 }
 
 .card-form .card .title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 100px 0px 0px 30px;
 }
 
 .card-form .card .title h2{
+    font-family:Arial, Helvetica, sans-serif;
     padding: 100px 0px 0px 30px;
 }
 
 .card-form .card .contact {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 150px 0px 0px 30px;
 
 }
