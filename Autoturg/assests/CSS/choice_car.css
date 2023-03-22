@@ -184,7 +184,12 @@ header {
 
 .card_full {
     
-    /* height: 100px; */
     width: auto;
     display: flex;
+}
+
+@media(max-width: 720px) {
+    .card_full {
+        display: block;
+    }
 }
