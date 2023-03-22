@@ -68,7 +68,7 @@ header {
 }
 
 .navigation .btnLogin-popup:hover {
-    background: #fff;
+    background: #ffffff;
     color: #162938;
 }
 
@@ -97,10 +97,43 @@ header {
     color: yellow;
 }
 
-.card_choice {
+/* .card_bg {
+    height: 200px;
+    background: #00000050;
+} */
 
-    display: block;
-    background: #fff;
+.card_choice {
+    margin-top: 200px;
+    border-radius: 10px;
+
+    width: 300px;
+    height: 950px;
+    /* display: block; */
+    /* background: #fff; */
+    background: #00000077;
+    backdrop-filter: blur(10px);
+    /* filter: brightness(50%); */
+}
+.card_choice .all_input input {
+    /* display: flex; */
+    width: 100px;
+    /* padding: 10px; */
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 5px;
+
+
+}
+.card_choice .dropdown .btn {
+    margin-left: 25px;
+    width: 250px;
+}
+.card_choice p {
+    text-align: center;
+    color: white;
+    /* padding: 10px; */
+    margin-top: 40px;
+    font-size: 32px;
 }
 
 .card-car {
@@ -109,7 +142,7 @@ header {
     padding: 30px;
     display: flex;
     /* backdrop-filter: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) blur(10px); */
-    background: #000 ;
+    background: #0000007a ;
     color: #fff;
     border-radius: 10px;
 }
@@ -135,8 +168,23 @@ header {
     font-size: 18px;
     color: #7b7b7b;
 }
+/* .card {
+    background: red;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    margin-top: 200px;
+} */
 
 .card_car{
-    margin-top: 100px;
+    margin-top: 200px;
+    background: #00000077;
+    backdrop-filter: blur(10px);
     align-items: center;
+}
+
+.card_full {
+    
+    /* height: 100px; */
+    width: auto;
+    display: flex;
 }
