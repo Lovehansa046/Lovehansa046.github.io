@@ -13,6 +13,11 @@ p {
     padding: 0 0 20px 0;
     line-height: 1.7em;
 }
+
+.logo1 {
+    margin: -100px;
+}
+
 .logo .logo_img {
     color: white;
     display: block;

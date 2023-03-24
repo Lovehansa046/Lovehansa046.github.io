@@ -16,6 +16,10 @@
   padding: 39px 0 62px 0;
 }
 
+.logo {
+  margin: -100px;
+}
+
 .logo .logo_img {
   display: block;
   margin:  auto;
