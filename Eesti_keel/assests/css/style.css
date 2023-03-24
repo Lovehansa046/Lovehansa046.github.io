@@ -9,6 +9,11 @@ body {
     background: #272727;
 }
 
+.logo {
+    text-align: center;
+    margin: -80px;
+}
+
 .title {
     margin-top: 40px;
     padding: 150px auto;

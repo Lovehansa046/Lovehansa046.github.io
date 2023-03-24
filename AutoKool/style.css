@@ -16,6 +16,10 @@
     
 }
 
+.logo {
+    margin: -80px;
+}
+
 .logo .logo_img {
     color: white;
     display: block;
