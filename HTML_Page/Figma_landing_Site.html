@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/assets_index/css/style.css">
+
+    <title>Figma Site Html</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container-icon">
+            <a href="https://lovehansa046.github.io/">
+                <img src="/assets_index/Img_logo/Логотип_общий_белый.png" class="primary-icon">
+            </a>
+        </div>
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item">
+                <a href="/index.html">About Me</a>
+            </li>
+            <li class="list-item" >
+                <a href="/HTML_Page/HTML_CSS.html" >HTML and CSS</a>
+            </li>
+            <li class="list-item">
+                <a href="/HTML_Page/Figma.html">Figma</a>
+            </li>
+            <li class="list-item">
+                <a href="/HTML_Page/Figma_landing_Site.html" class="active">Figma Site Html</a>
+            </li>
+        </ul>
+        <div class="menu" id="toggleButton">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    <div class="card-all">
+        <div class="card-1">
+            <div class="card">
+                <div class="card-Title">
+                    <H1>Сайт по лейдингу - AutoKool</H1>
+                </div>
+                <div class="card-text">
+                    <p>Данный сайт сделан в тематике инфо-страницы</p>
+                </div>
+                <div class="button">
+                    <button type="button"><a href="/AutoKool/index.html">Пройти по карточке</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-1">
+            <div class="card">
+                <div class="card-Title">
+                    <H1>Сайт по лейдингу - Fotosessia</H1>
+                </div>
+                <div class="card-text">
+                    <p>Данный сайт сделан в тематике инфо-страницы</p>
+                </div>
+                <div class="button">
+                    <button type="button"><a href="/photostudio/index.html">Пройти по карточке</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-1">
+            <div class="card">
+                <div class="card-Title">
+                    <H1>Сайт по лейдингу - Суши Бар</H1>
+                </div>
+                <div class="card-text">
+                    <p>Данный сайт сделан в тематике интернет-магазина Сушибара</p>
+                </div>
+                <div class="button">
+                    <button type="button"><a href="/SushiBar/frame-1.html">Пройти по карточке</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-1">
+            <div class="card">
+                <div class="card-Title">
+                    <H1>Сайт по лейдингу - Eesti keel kurs</H1>
+                </div>
+                <div class="card-text">
+                    <p>Данный сайт сделан в тематике инфо-страницы по предоставлению курсов</p>
+                </div>
+                <div class="button">
+                    <button type="button"><a href="/Eesti_keel/html/index.html">Пройти по карточке</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-1">
+            <div class="card">
+                <div class="card-Title">
+                    <H1>Сайт по лейдингу - AutoTurg</H1>
+                </div>
+                <div class="card-text">
+                    <p>Данный сайт сделан в тематике автоподбора - интернет авторынка</p>
+                </div>
+                <div class="button">
+                    <button type="button"><a href="/Autoturg/HTML/index.html">Пройти по карточке</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const toggleButton = document.getElementById('toggleButton')
+    const navList = document.getElementById('navi-list')
+
+    toggleButton.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    })
+</script>
+
+</html>
+

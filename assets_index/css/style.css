@@ -1,153 +1,278 @@
-.logo_text{
-    color:lightgreen;
-    text-align: center;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-.logo .logo_img {
-    color: white;
-    display: block;
-    margin:  auto;
-}
-
-.logo {
-	margin: -100px;
-}
-
-
-.first{
-    color: lightgreen;
-    text-align: center;
-    margin-top: 100px;
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.first a{
-    display: inline-block;
-	margin-left: 1px;
-	padding: 28px 1.5em 0em 1.5em;
-	letter-spacing: 0.10em;
-	text-decoration: none;
-	font-size: 1em;
-	text-transform: uppercase;
-	outline: 0;
-	color: lightgreen;
-    text-decoration: underline;
-}
-
-.background {
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.4)), url(/assets_index/img/Programmerimine.jpeg) no-repeat;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
-h3,a {
-	margin-left: 1px;
-	padding: 28px 1.5em 0em 1.5em;
-	letter-spacing: 0.10em;
-	text-decoration: none;
-	font-size: 1em;
-	text-transform: uppercase;
-	outline: 0;
-	color: lightgreen;
-	text-align: left;
+
+
+
+.navbar {
+    backdrop-filter: blur(10px);
+    background-color: rgba(101, 98, 98, 0.102);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
 }
-h1{
-	margin-left: 1px;
-	padding: 0px 0em 0em 0em;
-	letter-spacing: 0.10em;
-	text-decoration: none;
-	font-size: 3em;
-	text-transform: uppercase;
-	outline: 0;
-	color: green;
-	text-align: center;
+
+.primary-icon {
+    height: 200px;
+    margin: -30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    display: flex;
+}
+
+.nav-list {
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.nav-list .list-item a.active {
+    color: rgb(78, 78, 78);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.menu {
+    display: none;
+    transition: 1s;
+}
+
+.menu-line {
+    width: 30px;
+    height: 3px;
+    margin-right: 15px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.menu:hover {
+    transform: scale(1.3);
+}
+
+
+
+@media all and (max-width: 970px) {
+    .navbar {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .navbar .container-icon {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 85px;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        display: none;
+    }
+
+    .nav-list .list-item {
+        display: block;
+        border-top: 1px solid white;
+    }
+
+    .primary-icon {
+        margin-top: 10px;
+        margin-left: -40px;
+    }
+
+    .active {
+        display: block;
+    }
+
+}
+
+.Title-text {
+    padding: 200px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.Title-text .Title {
+    color: rgb(235, 227, 0);
+    padding: -10px;
+    font-size: 64px;
+}
+
+.Title-text H2 {
+    color: white;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.Title-text .name {
+    color: rgb(235, 227, 0);
+    font-size: 32px;
+}
+
+.card-1 {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+
+.card {
+    backdrop-filter: blur(10px);
+    background: rgba(57, 57, 57, 0.432);
+    border-radius: 20px;
+    width: 400px;
+    height: 320px;
+    color: white;
+    margin-left: 150px;
+    margin-top: 50px;
     
 }
 
-p{
-	margin-left: 1px;
-	padding: 28px 1.5em 0em 1.5em;
-	letter-spacing: 0.10em;
-	text-decoration: none;
-	font-size: 1em;
-	text-transform: uppercase;
-	outline: 0;
-	color: lightgreen;
-	text-align: center;
-    
+.card-Title  {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
 }
 
-.card {
-	/* float:inline-start; */
-	float:left;
-	/* background: rgb(97, 135, 31); */
-	box-shadow: 5px 8px 5px 8px  rgb(0, 0, 0);
-	width: 250px;
-	height: 200px;
-	margin: 15px;
-	text-align: center;
-	font-family: arial;
-	padding: 50px;
-  }
-  
-  .card button {
-	border: 12px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.476);
-	outline: 0;
-	padding: 12px;
-	color: rgb(180, 225, 108);
-	background-color: #00000087;
-	text-align: center;
-	cursor: pointer;
-	width: 100%;
-	font-size: 18px;
-  }
-  
-  .card button:hover {
-	opacity: 0.7;
-  }
 
 
-
-.card {
-    display: inline-block; 
-    overflow: hidden; /* Скрываем всё за контуром */
+.card-text {
+    font-size: 20px;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
 }
-.card  button {
-    transition: 1s; /* Время эффекта */
-    display: block; 
+
+.button button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: rgb(235, 227, 0);
+    transition: 1s;
 
 }
-.card  button:hover {
 
-    transform: scale(1.2); /* Увеличиваем масштаб */
+.button button a {
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
 }
- 
+
+.card .button {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+
+.button button:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+@media (max-width:970px) {
+    .card-all {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.text H1{
+    font-size: 32px;
+    color: rgb(216, 215, 215);
+}
+
+.text p {
+    font-size: 24px;
+    color: grey;
+}
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px auto;
+    height: auto;
+    backdrop-filter: blur(100px);
+    background: rgba(51, 51, 51, 0.736);
+    border-radius: 15px;
+    padding: 10px;
+    display: block;
+}
+
 .dropbtn {
-	background-color: lightgreen;
-	color: rgb(0, 76, 19);
+    backdrop-filter: blur(10px);
+	background-color: rgba(129, 129, 129, 0.329);
+    color: rgb(235, 227, 0);
 	width: 220px;
 	height: 220px;
 	margin: 15px;
+    border-radius: 30px;
 	font-size: 24px;
 	border: none;
 	cursor: pointer;
+    
   }
   
   /* The container <div> - needed to position the dropdown content */
   .dropdown {
+    text-align: center;
 	margin:110px;
 	height: 400px;
-	display: inline-block;  
+	 
   }
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
 	display: none;
-	position: absolute;
+	/* position:relative; */
 	background-color: #f9f9f99b;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
 	z-index: 1;
   }
   
@@ -156,19 +281,24 @@ p{
 	color: black;
 	padding: 12px 20px;
 	text-decoration: none;
+    text-align: center;
 	display: block;
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: lightgreen}
+  .dropdown-content a:hover {background-color: rgb(235, 227, 0);
+  }
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
+    align-items: center;
 	display: block;
   }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {
-	color: rgba(255, 255, 255, 0.691);
-	background-color: #12a41783;
+	color: rgba(0, 0, 0, 0.691);
+    font-weight: bold;
+	background-color: rgb(235, 227, 0);
+    ;
   }
