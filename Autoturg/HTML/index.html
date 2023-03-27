@@ -13,21 +13,33 @@
 <body>
 
 
-    <header>
-        <div class="logo">
-            <a href="https://lovehansa046.github.io/"><img
-                    src="/Img_logo/Логотип_общий_белый.png" alt="logo_img" class="logo_img"
-                    width="300px"></a>
+    <nav class="navbar">
+        <div class="container-icon">
+            <a href="https://lovehansa046.github.io/">
+                <img src="/assets_index/Img_logo/Логотип_общий_белый.png" class="primary-icon">
+            </a>
         </div>
-        <nav class="navigation">
-            <ul class="navigation">
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item">
                 <a href="/Autoturg/HTML/choice_car.html">Подержанные автомобили</a>
+            </li>
+            <li class="list-item">
                 <a href="#">Новые автомобили</a>
+            </li>
+            <li class="list-item">
                 <a href="/Autoturg/HTML/Brands.html">Марки автомобилей</a>
+            </li>
+            <li class="list-item">
                 <button class="btnLogin-popup">Войти</button>
-            </ul>
-        </nav>
-    </header>
+            </li>
+        </ul>
+
+        <div class="menu" id="toggleButton">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
     </br>
     <div class="container">
         <div class="row">
@@ -42,5 +54,13 @@
 
 
 </body>
+<script>
+    const toggleButton = document.getElementById('toggleButton')
+    const navList = document.getElementById('navi-list')
+
+    toggleButton.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    })
+</script>
 
 </html>

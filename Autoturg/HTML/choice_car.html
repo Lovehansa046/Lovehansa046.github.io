@@ -11,17 +11,33 @@
 </head>
 
 <body>
-    <header>
-        <h2 class="logo"><a href="/Autoturg/HTML/index.html">Logo</a></h2>
-        <nav class="navigation">
-            <ul class="navigation">
+    <nav class="navbar">
+        <div class="container-icon">
+            <a href="/Autoturg/HTML/index.html">
+                <img src="/assets_index/Img_logo/Логотип_общий_белый.png" class="primary-icon">
+            </a>
+        </div>
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item">
                 <a href="/Autoturg/HTML/choice_car.html" class="active">Подержанные автомобили</a>
+            </li>
+            <li class="list-item">
                 <a href="#">Новые автомобили</a>
+            </li>
+            <li class="list-item">
                 <a href="/Autoturg/HTML/Brands.html">Марки автомобилей</a>
+            </li>
+            <li class="list-item">
                 <button class="btnLogin-popup">Войти</button>
-            </ul>
-        </nav>
-    </header>
+            </li>
+        </ul>
+
+        <div class="menu" id="toggleButton">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -139,5 +155,13 @@
     </div>
 
 </body>
+<script>
+    const toggleButton = document.getElementById('toggleButton')
+    const navList = document.getElementById('navi-list')
+
+    toggleButton.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    })
+</script>
 
 </html>
