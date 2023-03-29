@@ -9,23 +9,35 @@
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="/KinoBaza/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/Eesti_keel/assests/css/Info.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/Eesti_keel/assests/css/kurs.css">
+    <title>Info</title>
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="container-icon">
+                <a href="#">
+                    <img src="/assets_index/Img_logo/Логотип_общий_белый.png" class="primary-icon">
+                </a>
+            </div>
+            <ul class="links" id="LINK">
+                <li class="link-item"><a href="/Eesti_keel/html/Teachers_info.html">Преподаватели</a></li>
+                <li class="link-item-active"><a href="#">Информация</a></li>
+                <li class="link-item"><a href="/Eesti_keel/html/Otziv.html">Отзывы</a></li>
+                <li class="link-item"><a href="/Eesti_keel/html/kurs.html">Курсы</a></li>
+                <li class="link-item"><a href="/Eesti_keel/html/index.html">Выйти</a></li>
+            </ul>
+            <div class="menu" id="toggleButton">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </header>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <nav class="navbar bg-primary" data-bs-theme="dark">
-                    <nav class="nav nav-pills nav-fill navbarCollapse-left">
-                        <a class="nav-link btn-light" aria-current="page" href="/Eesti_keel/html/Teachers_info.html">Преподаватели</a>
-                        <a class="nav-link active btn-warning" href="/Eesti_keel/html/Info.html">Информация</a>
-                        <a class="nav-link btn-light" href="/Eesti_keel/html/Otziv.html">Отзывы</a>
-                        <a class="nav-link btn-light" href="/Eesti_keel/html/Kurs.html">Курсы</a>
-                        <a class="nav-link btn-light" href="/Eesti_keel/html/index.html">Выйти</a>
-                    </nav>
-                </nav>
-
                 <div class="card-form">
                     <div class="card" style="height: auto;">
                         <div class="title">
@@ -55,5 +67,13 @@
         </div>
     </div>
 </body>
+<script>
+    const toggleButton = document.getElementById('toggleButton')
+    const navList = document.getElementById('LINK')
+
+    toggleButton.addEventListener('click', () => {
+        navList.classList.toggle('active');
+    })
+</script>
 
 </html>
